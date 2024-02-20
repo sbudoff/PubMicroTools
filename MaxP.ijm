@@ -1,0 +1,10 @@
+run("Z Project...", "projection=[Max Intensity]");
+Stack.setChannel(1);
+run("Blue");
+Stack.setChannel(2);
+run("Green");
+Stack.setChannel(3);
+run("Red");
+Stack.setChannel(4);
+run("Magenta");
+Property.set("CompositeProjection", "Sum");
